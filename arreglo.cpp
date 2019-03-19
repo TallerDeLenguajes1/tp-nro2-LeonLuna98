@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int arre[5]={5,15,30,10,35};
+	int *punt;
+	punt= arre;
+	 
+	for(int i=0;i<5; i++ ){
+		
+		printf("El valor del elemento %d es de: %u\n", i, *(arre+i) );//Aritmetica de puntero
+		printf("La direccion de memoria del elemento %d es: %d\n", i, &arre[i]);//Notacion indexada
+		printf("El valor del elemento %d con puntero es de: %u\n", i, *(punt +i) );
+		printf("La direccion de memorioa del elemento %d con puntero es de: %u\n", i, &punt[i] );
+
+	}
+
+return 0;
+}
