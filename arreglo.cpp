@@ -5,7 +5,7 @@ int main(){
 	int arre[5]={5,15,30,10,35};
 	int *punt;
 	punt= arre;
-	 
+	temp=punt;
 	for(int i=0;i<5; i++ ){
 		
 		printf("El valor del elemento %d es de: %u\n", i, *(arre+i) );//Aritmetica de puntero
