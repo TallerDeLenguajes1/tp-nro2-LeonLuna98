@@ -5,6 +5,7 @@
 
 
 int main(){
+
 	int f,c;//C DE COLUMNAS , F DE FILAS
 	double mt[N][M];
 	mt[0][0]=1;
@@ -18,8 +19,6 @@ int main(){
 		for (c=0; c<M; c++){
 			printf("%.2lf    ", *(*(mt+f)+c));
 		}
-		printf("\n");
-	}
-
+	}	
 return 0;	
 }
