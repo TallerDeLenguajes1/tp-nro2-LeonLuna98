@@ -1,2 +1,4 @@
 Las carpetas tp2_1_1.cpp y tp2_1_2.cpp aparecen y desaparecen alternadamente dependiendo si me encuentro en el branch o en el master
 NOTA:Solo aparecen y desaparecen los archivos .cpp
+
+A medida que nos movemos con gitk -all podemos ver graficamente como nos desplazamos entre el branch y el master e incluso observar como se combinan cuando hacemos el git merge
